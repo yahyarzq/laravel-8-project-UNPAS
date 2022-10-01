@@ -26,26 +26,33 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        User::factory(5)->create();
         Category::create([
             'name'=>'Teknologi',
             'slug'=>'teknologi'
         ]);
-        User::create([
-            'name' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => Hash::make('password')
+        Category::create([
+            'name'=>'Informasi',
+            'slug'=>'informasi'
         ]);
+        Post::factory(20)->create();
+        // User::create([
+        //     'name' => Str::random(10),
+        //     'email' => Str::random(10).'@gmail.com',
+        //     'password' => Hash::make('password')
+        // ]);
+       
 
-        $post = Str::random(100);
-        Post::create([
-            'title'=>ucwords(substr($post,-15)),
-            'slug'=>strtolower(substr($post,-15)),
-            'excerpt'=>substr($post,-25),
-            'body'=>$post,
-            'category_id'=> 1,
-            'user_id'=>1
+        // $post = Str::random(100);
+        // Post::create([
+        //     'title'=>ucwords(substr($post,-15)),
+        //     'slug'=>strtolower(substr($post,-15)),
+        //     'excerpt'=>substr($post,-25),
+        //     'body'=>$post,
+        //     'category_id'=> 1,
+        //     'user_id'=>1
             
-        ]);
+        // ]);
 
     }
 }
