@@ -35,6 +35,10 @@ class DatabaseSeeder extends Seeder
             'name'=>'Informasi',
             'slug'=>'informasi'
         ]);
+        Category::create([
+            'name'=>'Komunikasi',
+            'slug'=>'komunikasi'
+        ]);
         Post::factory(20)->create();
         // User::create([
         //     'name' => Str::random(10),
