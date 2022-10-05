@@ -2,16 +2,23 @@
 
 namespace App\Models;
 
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Cviebrock\EloquentSluggable\Sluggable;
+
 
 class Post extends Model
 {
     use HasFactory;
+    use Sluggable;
+
     //protected $fillable = ['title','excerpt','body'];
     protected $guarded = ['id'];
     // Eager loading
     protected $with =['category','author'];
+
+
 
     public function scopeFilter($query, array $filters){
         // if(isset($filters['search'])? $filters['search'] : false){
@@ -47,4 +54,13 @@ class Post extends Model
     {
         return 'slug';
     }
+    
+    public function sluggable():array{
+        return [
+            'slug'=> [
+                'source'=> 'title'
+            ]
+        ];
+    }
+    
 }
