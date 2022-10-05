@@ -1,2 +1,8 @@
-<h1>Hello</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, et? Earum doloremque debitis natus dolores nisi? Corporis veritatis deserunt, repellat commodi et molestiae similique. Ipsum, error fugiat! Tempore, libero aperiam.</p>
+@extends('dashboard.layouts.main')
+
+
+@section('container')
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard , Welcome Back , {{ auth()->user()->name }}</h1>
+    </div>
+@endsection
