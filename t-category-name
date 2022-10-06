@@ -1,0 +1,89 @@
+[33mcommit 08ec4ead4904eba38c6332ce17604d5203c69bdf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Wed Oct 5 23:11:17 2022 +0700
+
+    20. Update & Delete Post
+
+[33mcommit fda6a8c4ef4415e670500b71988fed37b3b29f52[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Wed Oct 5 15:36:17 2022 +0700
+
+    19. Validation & Insert Post
+
+[33mcommit 1034054045de984d4e4db4d161f03a5aeddd28a7[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Wed Oct 5 13:31:46 2022 +0700
+
+    18. Create Post Form
+
+[33mcommit df3318677eae8c1c66d3fa276366a7b72decb33b[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Wed Oct 5 11:39:32 2022 +0700
+
+    17. Dashboard UI
+
+[33mcommit 755c807bb4afa77699015f625e34a639b72986f4[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Tue Oct 4 20:34:58 2022 +0700
+
+    16. User Login & Middleware
+
+[33mcommit 0ccf805a8c532ee0fe63b98eeebcedc478454484[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sun Oct 2 23:51:11 2022 +0700
+
+    15. User Registration
+
+[33mcommit 34e11a489dbc73858df73549a7d26ad885f814c2[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sun Oct 2 17:39:00 2022 +0700
+
+    14. View Login & Registration
+
+[33mcommit 22a0f4f32ebe06cd903889dcdca92898c1bcf312[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sun Oct 2 15:44:26 2022 +0700
+
+    13. Searching & Pagination
+
+[33mcommit 9f53d3bdbb7f9b7fff456388d08ae414491d892f[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sun Oct 2 11:28:19 2022 +0700
+
+    12. Redesign UI
+
+[33mcommit aa267d3e3b61a22a9ee6112e9ca67463ba5f51c6[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sun Oct 2 08:56:02 2022 +0700
+
+    11. N+1 Problem
+
+[33mcommit 48ce4c0ee3f047d604a24e3f7fc78807af39e563[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sat Oct 1 21:06:11 2022 +0700
+
+    10. Factory & Faker
+
+[33mcommit 38ae0d0df683345ee4abd618d42c793ca4e88571[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Sat Oct 1 07:31:26 2022 +0700
+
+    9. Database Seeder
+
+[33mcommit 1e85c778432c1eb61c3854d2ac46024b54319ef3[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Fri Sep 30 00:38:56 2022 +0700
+
+    8. Post Category & Eloquent Relationship
+
+[33mcommit 0428a2ebc761dd6c851cfa8b088d7ada8846a522[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Thu Sep 29 23:00:37 2022 +0700
+
+    7. Post Model
+
+[33mcommit 9264384c644bc1cb36b993eef9288f380db809f6[m
+Author: yahyarzq <79823596+yahyarzq@users.noreply.github.com>
+Date:   Thu Sep 29 20:19:13 2022 +0700
+
+    5. Model, Collection, Controller
